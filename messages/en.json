@@ -1,0 +1,62 @@
+{
+	"Navbar": {
+		"home": "Home",
+		"services": "Services",
+		"about": "About us",
+		"contact": "Contact us"
+	},
+	"About": {
+		"title": "About us",
+		"islamic": "Islamic",
+		"gregorian": "Gregorian",
+		"firstLine": "The Thuraya branch office for advertising and advertising was established",
+		"secondLine": "Ashraf Al Thuraya advertising office is characterized by multiple experiences and diverse skills in the field of marketing and design.",
+		"thirdLine": " We are a whole entity that does not consist of marketing and design specialists",
+		"fourLine": "and at every step we take we strive for success and excellence.",
+		"targets": {
+			"vision": "Vision",
+			"visionDescription": "Formation of a development company in the field of Marketing and design around the world around God and his power, and put forward what About a thousand jobs",
+			"circular": "The message",
+			"circularDescription": "The field of marketing is wide and large, the And in our office we strive to develop this Special features",
+			"principles": "Values and principles",
+			"principlesDescription": "Piety and fear of God in secret And go public to gain customers ' trust",
+			"target": "2030 target",
+			"targetDescription": "Creating a special platform in the field of marketing and customer service, supporting small and start-up enterprises, and reaching an award The best content maker"
+		}
+	},
+	"Services": {
+		"title": "Our Services",
+		"design": "Design of",
+		"one": "Marketing services: (creating a marketing plan, marketing management for companies and institutions, marketing campaigns  (Snapchat, Instagram, Tik Tok, YouTube, Google , Seo SEO))",
+		"two": "Management of platforms and sites: (processing of content for websites, development and improvement of websites, management of websites )",
+		"three": "Managing social media accounts.",
+		"four": "Creation of websites.",
+		"five": "E-commerce:) creating a store for companies and institutions, creating an e-store for individuals (design services) :  Visual Identity Design, Store and website design, logo design ،Motion video design, 3D design ) .",
+		"boxs": {
+			"logos": "The Slogans",
+			"identities": " The Identities",
+			"motions": "Motion videos",
+			"modellings": "3D Modeling"
+		},
+		"ServicesSections": {
+			"logos": "Applications for Logos & Slogans",
+			"identities": "Implementation of identities",
+			"motions": "Studio board for motion video",
+			"modellings": "The design of 3D Modeling"
+		}
+	},
+	"Footer": {
+		"title": "Contact us",
+		"reserved": "All rights reserved ",
+		"reservedCompany": "Aghsan Al Thuraya Office ."
+	},
+	"NotFound": {
+		"title": "Page Not Found",
+		"desc": "Sorry, the page you are looking for could not be found .",
+		"advice": "Return Home"
+	},
+	"SEO": {
+		"title": "Aghsan Al Thuraya Advertising Office",
+		"description": "Aghsan Al Thuraya Advertising Office for Advertising, Commercial Advertising, Electronic Marketing Resources, and Websites"
+	}
+}

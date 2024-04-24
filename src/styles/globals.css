@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "DIN Next W1G";
+	src: url("/font/TheGirlNextDoor-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-family: "TheGirlNextDoor", sans-serif;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	/* font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif; */
+}
+body {
+	/* transition: scroll-behavior 1s ease; */
+	/* direction: rtl; */
+	transition: all 50s ease-in-out;
+}
+/* For Chrome, Safari, and newer versions of Edge */
+::-webkit-scrollbar {
+	width: 12px; /* Width of the scrollbar */
+	cursor: pointer;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1; /* Color of the scrollbar track */
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #353992; /* Color of the scrollbar handle */
+	border-radius: 4px; /* Rounded corners of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #7174b2; /* Color of the scrollbar handle on hover */
+}
+
+.dir-rtl {
+	direction: rtl;
+}
+.dir-ltr {
+	direction: ltr;
+}
+
+:root {
+	--main-color: #353992;
+	--hover-effect-color: var(--main-color) / 2;
+	--main-transition: 0.3s;
+}
+
+.main-transition {
+	transition: all ease-in-out 0.3s;
+}
+
+/* Navbar */
+.text-right {
+	direction: rtl;
+}
+.nav-link:hover {
+	background: linear-gradient(to right, #5562a6, #363d83, #1e223f);
+}
+.active {
+	background: linear-gradient(to right, #5562a6, #363d83, #1e223f);
+	color: white;
+}
+/* Services */
+.service-title::before {
+	content: "";
+	width: 110%;
+	height: 10px;
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #3539923d;
+}
+
+/* Models */
+.image-effect {
+	transition: all 5s ease-out;
+	scale: 125%;
+}
+
+/* date-text */
+.date-text {
+	/* font-size: 42px; */
+	text-align: center;
+	color: transparent; /* Set text color to transparent */
+	-webkit-text-stroke: 1px #919ad193; /* Set text stroke to create the border */
+	/* border: 1px solid black; Optional: Add a solid border */
+	display: inline-block; /* Ensure that the border surrounds the text */
+	padding: 5px; /* Optional: Add padding to the text */
+}
